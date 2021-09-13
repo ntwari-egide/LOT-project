@@ -90,3 +90,22 @@ width: 80%;
   font-size: 14px;
   margin-top: 38px
 }
+.number-container .selection{
+    width: 10%;
+    margin: auto;
+}
+
+.number-container select{
+  margin-top: 5em;
+  padding: 9px 38px;
+  color: #FFFFFF;
+  background: transparent;
+  border-radius: 6px;
+  border: 1px solid #FFFFFF;
+  outline: none;
+  font-size: 0.8em;
+}
+
+.number-container select option{
+  color: black;
+}
