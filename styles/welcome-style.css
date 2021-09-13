@@ -1,0 +1,60 @@
+.welcome-page-content{
+    background-image: linear-gradient(to bottom, rgb(0 0 0 / 63%), #00000099), url(../assets/welcome-img.png);
+    width: 100vw;
+    height: 100vh;
+    min-height: 600px;
+    object-fit: cover;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.main-welcome-content h1{
+font-family: Poppins;
+    font-size: 54px;
+    width: 54%;
+    margin: auto;
+    padding-top: 134px;
+    font-weight: bold;
+}
+
+
+.welcome-page-content p{
+    width: 45vw;
+    margin: auto;
+    padding-top: 2em;
+}
+
+.button-container{
+    width: 31vw;;
+    margin: auto !important;
+}
+
+.button-container .hire-button{
+    padding: 14px 74px;
+    margin-top: 3em;
+    width: 80%;
+    border: none;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.button-container .get-hired-button{
+width: 80%;
+    border: 1px solid #FFFFFF;
+    padding: 13px 53px;
+    background: transparent;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 12px;
+    margin-top: 3em;
+}
+
+.button-container .get-hired-button:hover{
+  background: #00FFEB;
+  border-color: #00FFEB;
+  color: #1B27AF;
+  transition: ease-in-out 0.3s;
+}
