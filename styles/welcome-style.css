@@ -1,6 +1,5 @@
 .welcome-page-content{
     background-image: linear-gradient(to bottom, rgb(0 0 0 / 63%), #00000099), url(../assets/welcome-img.png);
-    width: 100vw;
     height: 100vh;
     min-height: 600px;
     object-fit: cover;
@@ -57,4 +56,34 @@ width: 80%;
   border-color: #00FFEB;
   color: #1B27AF;
   transition: ease-in-out 0.3s;
+}
+
+.welcome-slide-show{
+
+}
+
+.welcome-slide-show div {
+    width: 32% !important;
+}
+
+.welcome-slide-show div img {
+    width: 100% !important;
+}
+
+.number-container{
+    width: 80vw;
+    margin: auto;
+    background-color: #1B27AF;
+    border: 1px solid #707070;
+    height: 87vh;
+}
+
+.number-container h1{
+  font-size: 2.5em;
+  padding-top: 2em;
+  font-weight: bold;
+}
+
+.number-container p{
+  
 }
