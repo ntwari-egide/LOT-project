@@ -209,6 +209,10 @@ width: 80%;
   font-weight: bold
 }
 
+.partners-content .company{
+  font-size: 0.9em;
+  margin-bottom: 23px;
+}
 .next-partner{
   background: #1769FF;
   opacity: 1 !important;
@@ -220,12 +224,11 @@ width: 80%;
 
 .partners-board-content{
   height: 40vh;
+  padding: 0 107px;
 }
 
 .partners-board-content img{
   padding: 18px;
-  background: red;
-  width: 60%;
   height: 60%;
   margin: 63px;
 }
