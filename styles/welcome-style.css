@@ -71,11 +71,11 @@ width: 80%;
 }
 
 .number-container{
-    width: 80vw;
+    width: 93%;
     margin: auto;
     background-color: #1B27AF;
     border: 1px solid #707070;
-    height: 87vh;
+    height: 94vh
 }
 
 .number-container h1{
@@ -108,4 +108,30 @@ width: 80%;
 
 .number-container select option{
   color: black;
+}
+
+.number-container .card-container{
+    width: 94%;
+    padding-left: 33px;
+}
+
+.number-container .card-container div{
+  width: 30%;
+  padding: 11px;
+}
+
+.number-container .card-container div h1{
+  font-weight: 300;
+  font-size: 3em;
+}
+
+.number-container .card-container div h3{
+  font-size: 12px;
+  color: white;
+  margin-top: 1em;
+}
+
+.number-container .card-container div p{
+  color: #D7D7E2;
+  width: 60%;
 }
