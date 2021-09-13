@@ -178,3 +178,34 @@ width: 80%;
 .what-say-container .tw-tag{
   font-weight: 300;
 }
+
+.our-partners-container{
+  margin-top: 6em;
+}
+
+.our-partners-container h1{
+  margin-left: 6em;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.partners-content{
+  overflow: hidden;
+}
+.partners-content div{
+  margin-left: 5em;
+  width: 60vw;
+  margin-top: 2em;
+}
+
+.partners-content img{
+  width: 120%;
+}
+
+.partners-content h1{
+
+}
+
+.partners-content .company{
+
+}
