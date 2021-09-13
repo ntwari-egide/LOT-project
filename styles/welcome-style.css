@@ -88,7 +88,8 @@ width: 80%;
   width: 37vw;
   margin: auto;
   font-size: 14px;
-  margin-top: 38px
+  margin-top: 38px;
+  border-radius: 6px;
 }
 .number-container .selection{
     width: 10%;
@@ -134,4 +135,46 @@ width: 80%;
 .number-container .card-container div p{
   color: #D7D7E2;
   width: 60%;
+}
+
+.what-say-container{
+  height: 80vh;
+  margin-top: 6em;
+}
+
+.what-say-container div{
+  padding: 3em;
+  width: 100%;
+}
+
+.what-say-container h1{
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-left: 4em;
+}
+
+.what-say-container div iframe{
+  width: 79%;
+  height: 51vh;
+  margin-left: 6em;
+}
+
+.what-say-container .speech-text{
+  font-size: 0.9em;
+  line-height: 28px;
+  margin-top: 0.5em;
+}
+
+.what-say-container .active{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.what-say-container .tw-username{
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.what-say-container .tw-tag{
+  font-weight: 300;
 }
