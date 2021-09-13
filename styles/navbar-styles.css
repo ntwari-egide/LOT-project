@@ -1,0 +1,33 @@
+.navbar-links{
+    margin-left: 46vw;
+}
+
+.navigation_container{
+    width: 90vw;
+    margin: auto;
+}
+
+.navbar-logo{
+    width: 62px;
+}
+
+.navbar-links ul li{
+    margin-left: 10px;
+}
+
+.navbar-links ul li a{
+    font-family: Poppins;
+    font-size: 0.9em;
+    color: #ACB8C1 !important;
+    font-weight: normal;
+    margin-left: 24px;
+}
+
+.navbar-links ul li button{
+    font-family: Poppins;
+    font-size: 0.7em;
+    padding: 9px 31px;
+    margin-left: 14px;
+    border: none;
+    border-radius: 2px;
+}
