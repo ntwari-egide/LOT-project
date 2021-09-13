@@ -85,5 +85,8 @@ width: 80%;
 }
 
 .number-container p{
-  
+  width: 37vw;
+  margin: auto;
+  font-size: 14px;
+  margin-top: 38px
 }
