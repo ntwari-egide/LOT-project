@@ -193,19 +193,26 @@ width: 80%;
   overflow: hidden;
 }
 .partners-content div{
-  margin-left: 5em;
-  width: 60vw;
+  margin-left: 7em;
+  width: 33%;
   margin-top: 2em;
+  margin-bottom: 9em;
 }
 
 .partners-content img{
-  width: 120%;
+  width: 111%;
 }
 
-.partners-content h1{
-
+.partners-content h2{
+  margin-top: 2em;
+  font-size: 1.5em;
+  font-weight: bold
 }
 
-.partners-content .company{
-
+.next-partner{
+  background: #1769FF;
+  opacity: 1 !important;
+  height: 8%;
+  width: 26%;
+  padding: 14px;
 }
