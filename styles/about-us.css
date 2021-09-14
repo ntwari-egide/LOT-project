@@ -1,5 +1,6 @@
 .about-us-content{
     padding: 37px 112px;
+    height: 75vh;
 }
 
 .about-us-content h1{
@@ -24,4 +25,55 @@
     color: #FFFFFF;
     font-size: 0.8em;
     margin-top: 6em;
+}
+
+.why-us-container{
+    padding: 0 4em;
+    margin-bottom: 6em;
+}
+
+.why-us-container h1{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.why-us-container .main-content{
+    background-image: linear-gradient(to bottom, rgb(0 0 0 / 31%), #0000005c), url(../assets/partners-img.png);
+    margin-right: 2em;
+    margin-left: 1em;
+    margin-top: 3em;
+    height: 46vh;
+    background-size: cover;
+    border-radius: 6px;
+}
+
+.why-us-container .main-content .icons{
+    background: #090c2d85;
+    height: 24%;
+    margin-top: 60%;
+    border-radius: 0 0 6px 6px;
+}
+
+.why-us-container .main-content .icons div:nth-child(1){
+    padding: 21px 0;
+    background: #ffffff3b;
+    cursor: pointer;
+}
+
+.why-us-container .main-content .icons div:nth-child(1) svg{
+    padding: 0;
+    margin-left: 3em;
+    margin-top: 0.4em;
+}
+
+.why-us-container .main-content .icons .content{
+    width: 205%;
+    position: relative;
+    top: -11em;
+    margin-left: -4em;
+    color: #ECECEC;
+    font-size: 1em;
+    line-height: 2em;
 }
