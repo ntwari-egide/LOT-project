@@ -23,6 +23,12 @@
     margin-left: 24px;
 }
 
+.navbar-links ul li a.active{
+    color: #00FFEB !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .navbar-links ul li button{
     font-family: Poppins;
     font-size: 0.7em;

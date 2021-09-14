@@ -77,3 +77,33 @@
     font-size: 1em;
     line-height: 2em;
 }
+
+.about-analytics{
+    background-image: linear-gradient(to bottom, #1b27af8c, #1b27af80), url(../assets/welcome-img.png);    background-size: cover;
+    background-repeat: no-repeat;
+    height: 63vh;
+    background-position: center;
+    padding: 21px 11em;
+}
+
+.about-analytics .main-content{
+    border: 1px solid #ffffff4f;
+    margin-right: 55px;
+    height: 30vh;
+    margin-top: 7em;
+    padding: 62px;
+}
+
+.about-analytics .main-content h1{
+    font-weight: 300;
+    font-size: 3em;
+}
+
+.about-analytics .main-content p{
+    font-size: 0.8em;
+    color: #FFFFFF;
+}
+
+.contact-form.about-us{
+    top: 367.5vh !important;
+}
