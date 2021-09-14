@@ -257,3 +257,12 @@ footer ul li {
   color: #ECECEC;
   font-size: 0.8em;
 }
+
+footer .d-flex svg{
+  background: #1769FF;
+  padding: 8px;
+  height: 2em;
+  width: 2em;
+  border-radius: 100%;
+  cursor: pointer;
+}
