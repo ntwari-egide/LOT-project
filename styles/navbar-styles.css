@@ -2,6 +2,10 @@
     margin-left: 46vw;
 }
 
+.sticky-navbar{
+    background: #fffffff5;
+}
+
 .navigation_container{
     width: 90vw;
     margin: auto;

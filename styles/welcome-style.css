@@ -31,7 +31,7 @@
 }
 
 .button-container .hire-button{
-    padding: 14px 74px;
+    padding: 17px 74px;
     margin-top: 3em;
     width: 80%;
     border: none;
@@ -41,9 +41,9 @@
 }
 
 .button-container .get-hired-button{
-width: 80%;
+    width: 80%;
     border: 1px solid #FFFFFF;
-    padding: 13px 53px;
+    padding: 16px 53px;
     background: transparent;
     font-weight: bold;
     border-radius: 6px;
@@ -76,6 +76,7 @@ width: 80%;
   background-color: #1B27AF;
   border: 1px solid #707070;
   height: 94vh;
+  border-radius: 6px
 }
 
 .number-container h1{
@@ -148,21 +149,23 @@ width: 80%;
 }
 
 .what-say-container h1{
-  font-size: 1.5em;
-  font-weight: bold;
-  padding-left: 4em;
+    font-size: 1.9em;
+    font-weight: bold;
+    padding-left: 3.2em;
+    margin-bottom: -2em;
+    margin-top: 2em;
 }
 
 .what-say-container div iframe{
   width: 79%;
-  height: 51vh;
+  height: 57vh;
   margin-left: 6em;
 }
 
 .what-say-container .speech-text{
   font-size: 0.9em;
   line-height: 28px;
-  margin-top: 0.5em;
+  margin-bottom: 3em !important;
 }
 
 .what-say-container .active{
@@ -273,7 +276,7 @@ footer .d-flex svg{
   width: 26%;
   position: absolute;
   z-index: 11;
-  top: 510.5vh;
+  top: 518.5vh;
   right: 150px;
   border-radius: 0px 0px 6px 6px;
   padding: 23px 34px;

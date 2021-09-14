@@ -18,7 +18,7 @@
     <div class="welcome-page-content">
         <!-- navigation style -->
 
-        <nav class="px-8">
+        <nav class="px-8"  id="navbar_top">
             <div class="navigation_container sticky-top  navbar navbar-expand-lg navbar-light bg-transparent">
             <a class="navbar-brand" href="#">
                 <img class="navbar-logo" src="../assets/logo/logo1.png"/>
@@ -30,7 +30,7 @@
                 <div class="collapse navbar-collapse navbar-links" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto  navbar_link_color">
                     <li class="nav-item">
-                        <a class="nav-link " href="#">Home</a>
+                        <a class="nav-link " href="/index.html">Home</a>
                     </li>
 
                     <li class="nav-item">
@@ -229,3 +229,22 @@
 
 </body>
 </html>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 50) {
+            document.getElementById('navbar_top').classList.add('fixed-top');
+            document.getElementById('navbar_top').classList.add('sticky-navbar')
+            // add padding top to show content behind navbar
+            navbar_height = document.querySelector('.navbar').offsetHeight;
+            document.body.style.paddingTop = navbar_height + 'px';
+        } else {
+            document.getElementById('navbar_top').classList.remove('fixed-top');
+            document.getElementById('navbar_top').classList.remove('sticky-navbar');
+            // remove padding top from body
+            document.body.style.paddingTop = '0';
+        } 
+    });
+    });
+</script>
