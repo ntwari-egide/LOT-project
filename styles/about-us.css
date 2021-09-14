@@ -1,0 +1,27 @@
+.about-us-content{
+    padding: 37px 112px;
+}
+
+.about-us-content h1{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.about-us-content p{
+    width: 76%;
+    margin: auto;
+    text-align: left;
+    font-size: 0.9em;
+    line-height: 2em;
+}
+
+.about-us-content button{
+    border-radius: 6px;
+    border: none;
+    padding: 12px 41px;
+    color: #FFFFFF;
+    font-size: 0.8em;
+    margin-top: 6em;
+}
