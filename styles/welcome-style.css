@@ -273,7 +273,7 @@ footer .d-flex svg{
   width: 26%;
   position: absolute;
   z-index: 11;
-  top: 460.5vh;
+  top: 510.5vh;
   right: 150px;
   border-radius: 0px 0px 6px 6px;
   padding: 23px 34px;
@@ -305,8 +305,8 @@ footer .d-flex svg{
 }
 
 .first-sliders-content img{
-    height: 47vh;
-    width: 69%;
+  height: 52vh;
+  width: 69%;
 }
 
 .top-sliders{
@@ -317,4 +317,12 @@ footer .d-flex svg{
 .first-sliders-content div{
   width: 54%;
   margin-left: -11em;
+}
+
+.gray-background{
+  height: 111vh;
+  position: relative;
+  top: -253px;
+  z-index: -1;
+  margin-bottom: -43em;
 }
