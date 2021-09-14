@@ -71,11 +71,11 @@ width: 80%;
 }
 
 .number-container{
-    width: 93%;
-    margin: auto;
-    background-color: #1B27AF;
-    border: 1px solid #707070;
-    height: 94vh
+  width: 84%;
+  margin: auto;
+  background-color: #1B27AF;
+  border: 1px solid #707070;
+  height: 94vh;
 }
 
 .number-container h1{
@@ -276,4 +276,45 @@ footer .d-flex svg{
   top: 460.5vh;
   right: 150px;
   border-radius: 0px 0px 6px 6px;
+  padding: 23px 34px;
+}
+
+.contact-form h1{
+  font-size: 1.6em;
+  margin-top: 2em;
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+
+.contact-form input, .contact-form textarea{
+  border: none;
+  border-bottom: 1px solid #000000;
+  padding: 13px 0px;
+  width: 100%;
+  font-size: 0.8em;
+  outline: none;
+}
+
+.contact-form button{
+  border: none;
+  font-size: 0.8em;
+  padding: 13px 25px;
+  float: right;
+  margin-top: 22px;
+  border-radius: 6px;
+}
+
+.first-sliders-content img{
+    height: 47vh;
+    width: 69%;
+}
+
+.top-sliders{
+  margin-top: -6em;
+  height: 49vh;
+}
+
+.first-sliders-content div{
+  width: 54%;
+  margin-left: -11em;
 }
