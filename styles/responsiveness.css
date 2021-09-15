@@ -1,0 +1,543 @@
+@media only screen and (max-width: 595px) {
+
+}
+ 
+/* Small screen devices (600px and above) */
+@media only screen and (max-width: 595px){
+.welcome-page-content{
+    /* background-image: linear-gradient(to bottom, rgb(0 0 0 / 63%), #00000099), url(../assets/welcome-img.png); */
+    background-image: linear-gradient(to bottom, rgb(0 0 0 / 73%), #00000085);;
+    height: 100vh;
+    min-height: 600px;
+    object-fit: cover;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.video-background{
+    overflow-x: hidden;;
+}
+
+
+.first-sliders-content divimg{
+    display: none;
+}
+
+.first-sliders-content div:first-child img{
+    height: 45vh;
+    width: 92vw;
+    margin: 1em 12em;
+    z-index: 33;
+    display: block !important;
+}
+
+.main-welcome-content h1{
+    font-size: 2em;
+    width: 82%;
+    padding-top: 2em;
+}
+
+
+.welcome-page-content p{
+    width: 81vw;
+    padding-top: 2em;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin: 0 !important;
+}
+
+.button-container .hire-button{
+width: 100%;
+}
+
+.button-container .get-hired-button{
+width: 100%;
+}
+
+.number-container h1{
+font-size: 1.5em;
+padding-top: 1em;
+}
+
+.number-container{
+    height: auto;
+    padding-bottom: 2em;
+}
+
+
+.number-container p{
+    width: 69vw;
+    font-size: 0.8em;
+}
+.number-container .selection{
+    width: 50%;
+    margin: auto;
+}
+
+.number-container .card-container{
+    width: 100%;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number-container .card-container div{
+    width: 92%;
+    padding: 0px;
+}
+
+.number-container .card-container div h1{
+font-size: 2em;
+}
+
+.number-container .card-container div h3{
+  font-size: 12px;
+  color: white;
+  margin-top: 1em;
+}
+
+.number-container .card-container div p{
+margin-bottom: 21px;
+}
+
+.what-say-container {
+    height: auto;
+}
+
+.what-say-container .main-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.what-say-container div{
+padding: 10px;
+width: 100%;
+}
+
+.what-say-container h1{
+    font-size: 1.9em;
+    padding-left: 1.8em;
+    margin-bottom: 1em;
+}
+
+.what-say-container .speech-text {
+    margin-bottom: 3em !important;
+    margin-left: 2.3em;
+}
+
+
+.what-say-container .carousel-item svg,.what-say-container .carousel-item p{
+    margin-left: 2.3em;
+}
+
+.what-say-container div iframe{
+    width: 84%;
+    height: 36vh;
+    margin-left: 3em;
+}
+
+.our-partners-container h1 {
+    margin-left: 2em;
+}
+
+.partners-content div {
+    margin-left: 2.3em;
+    width: 80%;
+}
+
+.next-partner {
+    height: 9%;
+    width: 163%;
+    margin-right: 0.3em;
+}
+
+.partners-board-content{
+  height: auto;
+padding: 45px 0;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+}
+
+.partners-board-content img {
+    padding: 0;
+    height: 119px;
+    margin: 0;
+}
+
+.contact-form {
+    height: 80vh;
+    width: 80%;
+    position: relative;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    box-shadow: 0 2px 4px #00000026;
+    margin: 6em 2.3em;
+}
+
+footer .main-content{
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+    height: auto;
+    padding: 4em 3em;
+    align-items: center;
+}
+
+footer .main-content .col {
+    text-align: center;
+}
+
+.contact-form.about-us {
+    top: 0 !important;
+}
+
+.about-us-content {
+    padding: 32px 24px;
+    height: auto;
+}
+
+.why-us-container .big-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.why-us-container {
+    padding: 0 0em;
+    margin-bottom: 6em;
+}
+
+.why-us-container .main-content .icons {
+    height: 24%;
+    margin-top: 14em;
+}
+
+.why-us-container .main-content .icons .content {
+    width: 205%;
+    position: relative;
+    top: -11em;
+    margin-left: -3em;
+    color: #ECECEC;
+    font-size: 1em;
+    line-height: 2em;
+    margin-bottom: -6em;
+}
+.about-analytics .big-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-analytics {
+    height: auto;
+    padding: 43px 2em;
+}
+
+.about-analytics .main-content {
+    margin-right: 55px;
+    height: 30vh;
+    margin-top: 7em;
+    padding: 38px;
+    margin-left: 1.3em;
+}
+
+}
+ 
+/* Medium screen devices (768px and above) */
+@media only screen and (max-width: 768px)  and ( min-width: 600px) {
+.welcome-page-content{
+    /* background-image: linear-gradient(to bottom, rgb(0 0 0 / 63%), #00000099), url(../assets/welcome-img.png); */
+    background-image: linear-gradient(to bottom, rgb(0 0 0 / 73%), #00000085);;
+    height: 100vh;
+    min-height: 600px;
+    object-fit: cover;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.video-background{
+    overflow-x: hidden;;
+}
+
+
+.main-welcome-content h1{
+    font-size: 3em;
+    width: 82%;
+    padding-top: 3em;
+}
+
+
+.welcome-page-content p{
+    width: 81vw;
+    padding-top: 2em;
+    font-size: 2em;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin: 0 !important;
+}
+
+.first-sliders-content div:first-child img{
+height: 50vh;
+    width: 89vw;
+    margin: 1em 12em;
+    z-index: 33;
+    display: none;
+}
+
+
+.button-container .hire-button{
+    width: 100%;
+    font-size: 1.3em;
+    padding: 1em;
+}
+
+.button-container .get-hired-button{
+    width: 100%;
+    font-size: 1.3em;
+    padding: 1em;
+}
+
+.about-us-content h1 {
+    margin-bottom: 2em;
+}
+
+.about-us-content p {
+    font-size: 1.3em;
+}
+
+.about-us-content button {
+    font-size: 1.5em;
+}
+
+.number-container h1{
+font-size: 2.5em;
+}
+
+.number-container{
+    height: auto;
+    padding-bottom: 2em;
+}
+
+
+.number-container p{
+    font-size: 1.4em;
+}
+.number-container .selection{
+font-size: 2em;
+width: 35%;
+}
+
+.number-container .card-container{
+    width: 100%;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number-container .card-container div{
+    width: 92%;
+    padding: 0px;
+}
+
+.number-container .card-container div h1{
+font-size: 4em;
+}
+
+.number-container .card-container div h3{
+font-size: 1.3em;
+}
+
+.number-container .card-container div p{
+margin-bottom: 21px;
+}
+
+.what-say-container {
+    height: auto;
+}
+
+.what-say-container .main-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.what-say-container div{
+padding: 10px;
+width: 100%;
+}
+
+.what-say-container h1{
+    font-size: 2.9em;
+    padding-left: 1.8em;
+    margin-bottom: 1em;
+}
+
+.what-say-container .speech-text {
+    margin-bottom: 3em !important;
+    margin-left: 2.3em;
+}
+
+
+.what-say-container .carousel-item svg,.what-say-container .carousel-item p{
+    margin-left: 3.3em;
+    font-size: 1.4em;
+    line-height: 56px;
+}
+
+.what-say-container div iframe{
+    width: 84%;
+    height: 36vh;
+    margin-left: 3em;
+}
+
+.our-partners-container h1 {
+    margin-left: 2em;
+}
+
+.partners-content div {
+    margin-left: 2.3em;
+    width: 74%;
+    margin-right: 4em;
+}
+
+.partners-content .message {
+    overflow-wrap: break-word;
+    font-size: 1.3em;
+}
+
+.partners-content h2 {
+    margin-top: 2em;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.partners-content .company {
+    font-size: 1.4em;
+    margin-bottom: 23px;
+}
+
+.next-partner {
+    height: 9%;
+    width: 163%;
+    margin-right: 0.3em;
+}
+
+.partners-board-content{
+  height: auto;
+padding: 45px 0;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+}
+
+.partners-board-content img {
+height: 21em;
+    margin: 1em 3em;
+}
+
+.contact-form {
+    height: 80vh;
+    width: 80%;
+    position: relative;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    box-shadow: 0 2px 4px #00000026;
+    margin: 6em auto;
+    font-size: 2em;
+}
+
+footer .main-content{
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+    height: auto;
+    padding: 4em 3em;
+    align-items: center;
+    font-size: 1.6em;
+}
+
+footer .main-content .col {
+    text-align: center;
+}
+
+.contact-form.about-us {
+top: 0 !important;
+    font-size: 1.6em;
+    margin: 4em auto;
+}
+
+.about-us-content {
+    padding: 32px 24px;
+    height: auto;
+}
+
+.why-us-container .big-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.why-us-container {
+    padding: 0 0em;
+    margin-bottom: 6em;
+}
+
+.why-us-container .main-content .icons {
+    height: 24%;
+    margin-top: 14em;
+}
+
+.why-us-container .main-content .icons .content {
+    top: -7.8em;
+    margin-left: -3em;
+    color: #ECECEC;
+    font-size: 1.3em;
+    margin-bottom: -6em;
+}
+.about-analytics .big-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-analytics {
+    height: auto;
+    padding: 43px 2em;
+}
+
+.about-analytics .main-content {
+    margin-right: 55px;
+    height: 30vh;
+    margin-top: 7em;
+    padding: 55px;
+    margin-left: 1.3em;
+}
+}
+ 
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {
+    
+}
+ 
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+    
+}

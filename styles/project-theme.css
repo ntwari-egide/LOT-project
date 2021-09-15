@@ -16,6 +16,10 @@
     color: #FFFFFF;
 }
 
+.pure_white_background{
+    background-color: #FFFFFF;
+}
+
 .light_green_color{
     color: #00FFEB;
 }
@@ -35,3 +39,12 @@
 .navbar_link_color{
     color: #ACB8C1;
 }
+
+.poppins_font{
+  font-family: Poppins;
+}
+
+.glaylike_background_color{
+    background-color: #F6F6FF;
+}
+

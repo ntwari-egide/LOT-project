@@ -1,0 +1,118 @@
+.about-us-content{
+    padding: 37px 112px;
+    height: 75vh;
+}
+
+.about-us-content h1{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.about-us-content p{
+    width: 76%;
+    margin: auto;
+    text-align: left;
+    font-size: 0.9em;
+    line-height: 2em;
+}
+
+.about-us-content button{
+    border-radius: 6px;
+    border: none;
+    padding: 12px 41px;
+    color: #FFFFFF;
+    font-size: 0.8em;
+    margin-top: 6em;
+}
+
+.why-us-container{
+    padding: 0 4em;
+    margin-bottom: 6em;
+}
+.why-us-container .big-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.why-us-container h1{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.why-us-container .main-content{
+    background-image: linear-gradient(to bottom, rgb(0 0 0 / 31%), #0000005c), url(../assets/partners-img.png);
+    margin-right: 2em;
+    margin-left: 1em;
+    margin-top: 3em;
+    height: 46vh;
+    background-size: cover;
+    border-radius: 6px;
+}
+
+.why-us-container .main-content .icons{
+    background: #090c2d85;
+    height: 24%;
+    margin-top: 60%;
+    border-radius: 0 0 6px 6px;
+}
+
+.why-us-container .main-content .icons div:nth-child(1){
+    padding: 21px 0;
+    background: #ffffff3b;
+    cursor: pointer;
+}
+
+.why-us-container .main-content .icons div:nth-child(1) svg{
+    padding: 0;
+    margin-left: 3em;
+    margin-top: 0.4em;
+}
+
+.why-us-container .main-content .icons .content{
+    width: 205%;
+    position: relative;
+    top: -11em;
+    margin-left: -4em;
+    color: #ECECEC;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+.about-analytics{
+    background-image: linear-gradient(to bottom, #1b27af8c, #1b27af80), url(../assets/welcome-img.png);    background-size: cover;
+    background-repeat: no-repeat;
+    height: 63vh;
+    background-position: center;
+    padding: 21px 11em;
+}
+
+.about-analytics .big-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.about-analytics .main-content{
+    border: 1px solid #ffffff4f;
+    margin-right: 55px;
+    height: 30vh;
+    margin-top: 7em;
+    padding: 62px;
+}
+
+.about-analytics .main-content h1{
+    font-weight: 300;
+    font-size: 3em;
+}
+
+.about-analytics .main-content p{
+    font-size: 0.8em;
+    color: #FFFFFF;
+}
+
+.contact-form.about-us{
+    top: 375.5vh !important;
+}
