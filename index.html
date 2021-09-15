@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../styles/project-theme.css">
     <link rel="stylesheet" href="../styles/welcome-style.css">
     <link rel="stylesheet" href="../styles/navbar-styles.css">
+    <link rel="stylesheet" href="../styles/responsiveness.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -16,6 +17,10 @@
 
     <div class="welcome-page-content">
         <!-- navigation style -->
+
+        <video class="video-background" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+        </video>
 
         <nav class="px-8"  id="navbar_top">
             <div class="navigation_container sticky-top  navbar navbar-expand-lg navbar-light bg-transparent">
@@ -56,7 +61,7 @@
              <h1 class="text-center light_blue_color">Brand Africa As An Origin Of Sustainable Items</h1>
              <p class="text-center poppins_font w-1/4 pure_white_color">Brand Africa as an origin of sustainable items Brand Africa as an origin of sustainable items Brand Africa as an origin of sust</p>
 
-             <div class="d-flex flex-row button-container">
+             <div class="button-container">
                 <div class="col-6">
                     <button class="dark_blue_background poppins_font light_green_color hire-button">HIRE</button>
                 </div>
@@ -71,14 +76,14 @@
     <div id="" class="top-sliders carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item first-sliders-content active d-flex flex-row">
-                <div class="col-3">
+                <div class="col-3 col-md-4 col-lg-4">
                     <img src="./assets/slide-1.png" alt="">
                 </div>
-                <div class="col-3">
-                    <img src="./assets/slide-1.png" alt="">
+                <div class="col-3 col-md-4 col-lg-4">
+                    <img src="./assets/slide-2.png" alt="">
                 </div>
-                <div class="col-3">
-                    <img src="./assets/slide-1.png" alt="">
+                <div class="col-3 col-md-4 col-lg-4">
+                    <img src="./assets/slide-3.png" alt="">
                 </div>
             </div>
         </div>
@@ -128,7 +133,7 @@
     <!-- start of what they say about us -->
 
     <div class="poppins_font glaylike_background_color what-say-container">
-        <div class="d-flex flex-row">
+        <div class="main-content">
             <div class="w-1/2">
                 <h1 class="light_blue_color">What they say about us</h1>
 
@@ -149,7 +154,7 @@
                     </a>
                 </div>
             </div>
-            <div>
+            <div class="">
                 <iframe  
                 src="https://www.youtube.com/embed/ZKOL-rZ79gs" title="YouTube video player">
                 </iframe>
@@ -168,23 +173,23 @@
         <div id="" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item partners-content active d-flex flex-row">
-                        <div class="col-3">
+                        <div class="col-3 col-md-4 col-lg-4">
                             <img src="./assets/partners-img.png" alt="">
                             <h2 class="light_blue_color username">Isimbi Paradis</h2>
                             <p class="company medium_darl_black_color">Awesomity Ltd</p>
-                            <p class="message">"Brand Africa as an origin of sustainable items Brand Africa as an origin of sustainable items Brand Africa as an origin of sustainable items... " <strong>Read more</strong></p>
+                            <p class="message">"Brand Africa as an origin of sustainable items Brand Africa as an origin of sustainable items Brand  Africa as an origin of sustainable items... " <strong class="cursor-pointer">Read more</strong></p>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3 col-md-4 col-lg-4">
                             <img src="./assets/partners-img.png" alt="">
                             <h2 class="light_blue_color username">Isimbi Paradis</h2>
                             <p class="company medium_darl_black_color">Awesomity Ltd</p>
-                            <p class="message">"Brand Africa as an origin of sustainable items Brand Africa as an origin of sustainable items Brand Africa as an origin of sustainable items... " <strong>Read more</strong></p>
+                            <p class="message">"Brand Africa as an origin of sustainable items Brand Africa as an origin of sustainable items Brand  Africa as an origin of sustainable items... " <strong class="cursor-pointer">Read more</strong></p>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3 col-md-4 col-lg-4">
                             <img src="./assets/partners-img.png" alt="">
                             <h2 class="light_blue_color username">Isimbi Paradis</h2>
                             <p class="company medium_darl_black_color">Awesomity Ltd</p>
-                            <p class="message">"Brand Africa as an origin of sustainable items Brand Africa as an origin of sustainable items Brand Africa as an origin of sustainable items... " <strong>Read more</strong></p>
+                            <p class="message">"Brand Africa as an origin of sustainable items Brand Africa as an origin of sustainable items Brand Africa as an origin of sustainable items... " <strong class="cursor-pointer">Read more</strong></p>
                         </div>
                     </div>
                 </div>
@@ -198,17 +203,17 @@
 
     <!-- start of partners boards -->
 
-    <div class="d-flex flex-row glaylike_background_color partners-board-content">
+    <div class="glaylike_background_color partners-board-content">
         <div class="col">
             <img src="./assets/ICT-logo.png" alt="">
         </div>
-        <div class="col">
+        <div class="col ">
             <img src="./assets/FINTECH-logo.png" alt="">
         </div>
-        <div class="col">
+        <div class="col ">
             <img src="./assets/ICT-logo.png" alt="">
         </div>
-        <div class="col">
+        <div class="col ">
             <img src="./assets/FINTECH-logo.png" alt="">
         </div>
     </div>
@@ -239,7 +244,7 @@
     
     <!-- start of footer -->
         <footer class="dark_blue_background poppins_font">
-            <div class="d-flex flex-row">
+            <div class="main-content">
                 <div class="col">
                     <h1>OUR ADDRESS</h1>
                     <ul>
@@ -284,6 +289,8 @@
 </body>
 </html>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script>
     document.addEventListener("DOMContentLoaded", function(){
     window.addEventListener('scroll', function() {
